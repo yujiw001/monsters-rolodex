@@ -1,0 +1,10 @@
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    /* split four fractions(columns) */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* between each column there will be a gap of 20px */
+    grid-gap: 20px; 
+  }
+  
